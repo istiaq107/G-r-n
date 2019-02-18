@@ -1,0 +1,68 @@
+body {
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#intro_1 {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, 0%);
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#intro_2 {
+    position: absolute;
+    top: 41%;
+    left: 25%;
+    transform: translate(-50%, 0%);
+    font-size: 70px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+#intro_3 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, 0%);
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#icons {
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    transform: translate(-50%, 0%);
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fab, .fas {
+    padding-left: 20px;
+}
+
+#summ {
+    position: absolute;
+    width: 27%;
+    top: 40%;
+    left: 16%;
+    transform: translate(-50%, 0%);
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#wilderness {
+    width: 50%;
+    height: 50%;
+    transform: translate(100%, 0);
+    border-left: 2px solid #E2E4EA;
+}
